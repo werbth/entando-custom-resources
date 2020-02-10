@@ -1,0 +1,10 @@
+---
+kind: "EntandoApp"
+apiVersion: "entando.org/v1alpha1"
+metadata:
+  name: "app-entando"
+spec:
+  standardServerImage: "wildfly"
+  dbms: "postgresql"
+  replicas: 1
+  customServerImage: "docker.io/werbth/entando-de-app-wildfly:6.0.0-SNAPSHOT"

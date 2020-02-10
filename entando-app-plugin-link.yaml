@@ -1,0 +1,11 @@
+---
+kind: "EntandoAppPluginLink"
+apiVersion: "entando.org/v1alpha1"
+metadata:
+  name: "app-entando-pda-plugin-link"
+spec:
+  entandoAppNamespace: "test-namespace"
+  entandoAppName: "app-entando"
+  entandoPluginNamespace: "test-namespace"
+  entandoPluginName: "pda-plugin"
+
